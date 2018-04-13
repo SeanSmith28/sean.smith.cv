@@ -1,0 +1,126 @@
+body{
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "about_main Effort sunrise_shorebreak"
+    "footer footer footer";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 300px;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+}
+
+/* .grid-container {
+   display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #00FFFF;
+  padding: 10px;
+} */
+/* .grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+} */
+
+#pageHeader {
+    grid-area: header;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+
+  }
+
+  .info{
+    padding-bottom: 200px;
+    padding-left: 15px;
+  }
+
+  .sunrise_wide{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+
+  .header{
+    align-content: center;
+  }
+
+  #pageArticle{
+    grid-area: about_main;
+    font-size: 20px;
+  }
+  #mainAbout{
+    text-align: left;
+  }
+
+  #mainEffort{
+    text-align: left;
+  }
+
+  .central{
+    text-align:center;
+    font-size: 30px;
+    }
+
+    .details{
+      text-align: left;
+      font-size: 20px;
+      ;
+    }
+
+  .sunrise_shorebreak{
+    display: inline;
+    padding-left: 33px;
+  }
+
+  #pageFooter a:hover{
+
+  }
+
+/* .sunrise_wide{
+  align-content: center;
+} */
+/* .upper1{
+  text-align: left;
+  font-size: 30px;
+  color: #000099;
+  }
+
+.upper2{
+  text-align: left;
+  font-size: 30px;
+  color: #000099;
+}
+
+.upper3{
+  text-align: right;
+  font-size: 30px;
+  color: #000099;
+  }
+
+.upper4{
+  text-align: right;
+  font-size: 30px;
+  color: #000099;
+  } */
+
+.about_main {
+
+    }
+
+/* .about_main{
+  display: grid;
+    grid-template-areas:
+      "header header header"
+      "nav article ads"
+      "footer footer footer";
+    grid-template-rows: 1fr 1fr 250px;
+    grid-template-columns: 1fr 1fr 40%;
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0;
+} */
